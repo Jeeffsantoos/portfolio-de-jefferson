@@ -1,0 +1,53 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px 20px;
+  width: 40%;
+  flex-grow: 1;
+  transition: 0.40s;
+}
+
+.portfolio img {
+  width: 80%;
+  padding: 15px;
+}
+
+.portfolio-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio-card div {
+  width: 100%;
+}
+
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  width: 80%;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio:hover {
+  transform: scale(1.05);
+}

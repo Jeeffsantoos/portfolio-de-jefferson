@@ -1,0 +1,39 @@
+.secao-skills {
+  background: linear-gradient(to right, #232526, #414345);
+  height: auto;
+  margin: 0 auto;
+  padding: 25px;
+  color: #fff8e9;
+}
+
+.titulo {
+  font-size: 25px;
+  color: #fff8e9;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+.secao-cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1024px;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+  
+}
+
+.secao-cards:hover > :not(:hover) {
+  opacity:.4;
+  transform: scale(0.8);
+  }
+  
+  
+  
+
+

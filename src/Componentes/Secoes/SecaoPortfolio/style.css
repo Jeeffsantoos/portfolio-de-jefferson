@@ -1,0 +1,29 @@
+.secao-portfolio {
+  background: linear-gradient(to top, #232526, #414345);
+  height: auto;
+  margin: 0 auto;
+  padding: 25px;
+  color: #fff8e9;
+}
+
+.secao-cards-portfolio  {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1024px;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titulo h4 {
+  font-size: 28px;
+}
+
+
+.secao-cards-portfolio:hover > :not(:hover) {
+  opacity:.4;
+  transform: scale(0.8);
+  }
+  

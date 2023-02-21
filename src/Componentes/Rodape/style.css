@@ -1,0 +1,8 @@
+footer {
+  background-color: black;
+  color: azure;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid rgba(225, 242, 246, 0.143);
+  box-shadow: 2px 2px 8px 1px #dadada;
+}
