@@ -1,8 +1,10 @@
 .banner {
-  height: 80vh;
+  height: auto;
   display: flex;
   align-items: center;
   background: linear-gradient(0, #0a072c, #000000);
+  padding-top: 60px;
+
 }
 
 .teclado {

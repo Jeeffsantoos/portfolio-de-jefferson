@@ -11,11 +11,13 @@ export default function Topo() {
         <Link to='/'> <img src={Logo} className='gira' alt="" /></Link>
         <nav className='menu-topo' >
           <ul className='lista-menu-topo'>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Habilidades</li>
-            <li>Certificados</li>
-            <li>Contato</li>
+            <li><Link to="/" >Home</Link></li>
+            <li><Link to="/Habilidades" >Habilidades</Link></li>
+            <li><Link to="/Sobre" >Sobre</Link>
+            </li>
+            <li><Link to="/Portfolio" >Portfolio</Link>
+            </li>
+            <li><a href="#contato">Contatos</a></li>
           </ul>
         </nav>
       </div>

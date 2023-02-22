@@ -4,7 +4,7 @@ import './style.css';
 
 export default function SecaoSobre() {
   return (
-    <section className='secao-sobre'>
+    <section id='sobre' className='secao-sobre'>
 
       <div className="limita-secao secao-sobre-container">
         <div className='secao-barras'>

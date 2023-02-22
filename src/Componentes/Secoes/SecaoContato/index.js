@@ -8,7 +8,7 @@ import './style.css';
 
 export default function SecaoContato(props) {
   return (
-    <section className='secao-contato'>
+    <section id='contato' className='secao-contato'>
       <h4 className='limita-secao'>Contatos</h4>
       <nav className='contato-menu limita-secao'>
         <ul>

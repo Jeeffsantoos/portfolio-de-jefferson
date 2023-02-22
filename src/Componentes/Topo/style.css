@@ -2,6 +2,9 @@ header {
   width: 100%;
   background: linear-gradient(0, #000000, #000000);
   padding: 10px 20px;
+  position: fixed;
+  z-index: 1;
+  height: auto;
 }
 
 .correcao {
@@ -13,6 +16,14 @@ header {
 header img {
   height: 50px;
 }
+
+a:active, a, a:visited, Link:visited, Link:active, li a:visited, li a:active, nav:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+
 
 
 .gira {
@@ -110,7 +121,10 @@ header img {
 @media (max-width: 550px) and (min-width: 368px)  {
 
 
- 
+ header {
+position: relative;
+
+ }
 
 
   .menu-topo {

@@ -3,9 +3,9 @@
   color: rgba(225, 242, 246, 0.543);
   display: flex;
   justify-content: space-between;
-  padding: 60px 15px;
+  padding: 80px 15px;
   align-items: center;
-  
+  height: 100vh;
 }
 
 .sobre-mim {
@@ -175,6 +175,7 @@ transform: scale(0.9);
    justify-content: center;
    align-items: center;
     width: 100%;
+
   }
 
   .sobre-mim {
@@ -194,5 +195,10 @@ transform: scale(0.9);
 
   .sobre-mim p {
     font-size: 15px;
+  }
+
+  .secao-sobre {
+    height: auto;
+    padding: 25px 25px;
   }
 }
