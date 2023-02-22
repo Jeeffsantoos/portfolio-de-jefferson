@@ -34,9 +34,7 @@
   transform: scale(0.8);
   }
   
-  
-  @media(max-width: 368px )
- {
+  @media (max-width: 430px) {
   .secao-cards {
     flex-direction: column;
     padding: 15px

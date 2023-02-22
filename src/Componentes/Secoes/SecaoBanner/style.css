@@ -83,7 +83,7 @@ line-height: 50px;
 }
 }
 
-@media (max-width: 368px) {
+@media (max-width: 430px) {
   .teclado {
   background: none;
   width: 0%;
@@ -93,15 +93,20 @@ line-height: 50px;
   width: 100%;
   height: 250px;
   margin: 0 auto;
+
 }
   
 .section-texto-banner {
   width: 100%;
   margin: 0 auto;
+  text-align: center;
+ 
+  
 }
 .banner-texto {
   width: 100%;
   margin: 0 auto;
+  font-size: 23px;
 }
 }
 

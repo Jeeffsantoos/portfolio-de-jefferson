@@ -56,15 +56,12 @@
 }
 
 
-@media (max-width:368px) {
+@media (max-width:425px) {
   .portfolio img {
     width: 90%;
     padding: 10px;
   }
 
            
-.btn-grad {
 
-
-}
 }

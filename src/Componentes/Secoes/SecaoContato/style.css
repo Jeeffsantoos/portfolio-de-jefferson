@@ -59,7 +59,7 @@ color: azure;
   color: white;
  }
 
- @media (max-width:368px) {
+ @media (max-width: 430px) {
   .contato-menu ul li{
      
     padding: 15px;
