@@ -4,5 +4,10 @@ footer {
   text-align: center;
   padding: 15px 0;
   border-top: 1px solid rgba(225, 242, 246, 0.143);
-  box-shadow: 2px 2px 8px 1px #dadada;
+  box-shadow: 15px 70px 1000px 15px #dadada;
 }
+
+@media (max-width: 368px) {
+  footer{
+    font-size: 10px;
+}}

@@ -14,27 +14,27 @@ export default function SecaoContato(props) {
         <ul>
           <li>
             <a href="https://www.instagram.com/_jeeffsantoos/" target='_blank' rel="noreferrer">
-              <AiFillInstagram size={38} className='icons' />
+              <AiFillInstagram size={34} className='icons' />
             </a>
           </li>
           <li>
             <a href="https://whatsa.me/5521994952025" target='_blank' rel="noreferrer">
-              <IoLogoWhatsapp size={38} className='icons' />
+              <IoLogoWhatsapp size={34} className='icons' />
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/jeeffsantoos/" target='_blank' rel="noreferrer">
-              <IoLogoLinkedin size={38} className='icons' />
+              <IoLogoLinkedin size={34} className='icons' />
             </a>
           </li>
           <li>
             <a href="https://github.com/Jeeffsantoos" target='_blank' rel="noreferrer">
-              <IoLogoGithub size={38} className='icons' />
+              <IoLogoGithub size={34} className='icons' />
             </a>
           </li>
           <li>
             <a href="mailto:jeeffsantoos@outlook.com" target='_blank' rel="noreferrer">
-              <IoIosChatboxes size={38} className='icons' />
+              <IoIosChatboxes size={34} className='icons' />
             </a>
           </li>
         </ul>

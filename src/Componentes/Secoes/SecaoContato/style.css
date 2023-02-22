@@ -32,22 +32,42 @@ color: azure;
   opacity:.4;
   transform: scale(0.8);
 
-  }
+}
   
-  .contato-menu ul li:not(:hover) {
+.contato-menu ul li:not(:hover) {
     transition: 0.3s ease-in-out;
-  }
+ }
   
-  .contato-menu ul { 
+.contato-menu ul { 
     cursor: pointer;
-  }
+}
 
-  .contato-menu ul li:hover {
+.contato-menu ul li:hover {
     transform: scale(1.5);
     transition: 0.3s ease-in-out;
+ }
+
+ .icons {
+  color: white;
+ }
+
+ .icons:active {
+  color: white;
+ }
+
+ .icons:visited {
+  color: white;
+ }
+
+ @media (max-width:368px) {
+  .contato-menu ul li{
+     
+    padding: 15px;
+  
   }
 
-  li a:visited {
-    text-decoration: none;
-    color: inherit;
+  .secao-contato {
+    height: auto;
+    padding: 40px 10px;
   }
+ }

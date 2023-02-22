@@ -67,3 +67,81 @@ header img {
 .lista-menu-topo li:hover::before {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .correcao {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header{
+    padding: 10px 5px 10px 5px;
+    height: auto;
+  }
+
+  .correcao img {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .menu-topo {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 768px;
+  }
+
+.lista-menu-topo {
+  padding: 2px 5px 2px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:  center ;
+  font-size: 15px;
+  flex-grow: 1;
+}
+}
+
+
+@media (max-width: 368px) {
+
+
+ 
+
+
+  .menu-topo {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+.lista-menu-topo {
+  padding: 2px 5px 2px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:  center ;
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.lista-menu-topo li {
+  width: 33%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+.lista-menu-topo li:hover::before {
+  width: 0%;
+}
+}

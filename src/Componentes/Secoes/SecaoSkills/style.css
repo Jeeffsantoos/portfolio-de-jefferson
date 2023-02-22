@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 25px;
   color: #fff8e9;
+  cursor: inherit;
 }
 
 .titulo {
@@ -13,7 +14,7 @@
   margin-bottom: 50px;
   padding-top: 50px;
   text-align: center;
-  cursor: pointer;
+
 }
 
 
@@ -34,6 +35,15 @@
   }
   
   
-  
+  @media(max-width: 368px )
+ {
+  .secao-cards {
+    flex-direction: column;
+    padding: 15px
+  }
 
+  .titulo h3 {
+    font-size: 22px;
+  }
+ }
 
