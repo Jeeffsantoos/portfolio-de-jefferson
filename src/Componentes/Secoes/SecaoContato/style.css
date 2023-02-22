@@ -58,7 +58,7 @@ color: azure;
  .icons:visited {
   color: white;
  }
- @media (max-width: 550px), (min-width: 368px)  {
+ @media (max-width: 550px)and (min-width: 368px)  {
   .contato-menu ul li{
      
     padding: 15px;
