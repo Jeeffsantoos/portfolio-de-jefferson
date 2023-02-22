@@ -7,7 +7,7 @@ footer {
   box-shadow: 15px 70px 1000px 15px #dadada;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 550px), (min-width: 368px)  {
   footer{
     font-size: 10px;
 }}

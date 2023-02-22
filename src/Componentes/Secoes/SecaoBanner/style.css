@@ -83,7 +83,7 @@ line-height: 50px;
 }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 550px), (min-width: 368px)  {
   .teclado {
   background: none;
   width: 0%;
