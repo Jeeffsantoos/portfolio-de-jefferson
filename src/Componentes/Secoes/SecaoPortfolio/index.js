@@ -7,6 +7,7 @@ import Gerador from '../../../assets/geradordenumeros.png';
 import Sorveteria from '../../../assets/sorveteria.png';
 import Otica from '../../../assets/Otica.png';
 import Barbearia from '../../../assets/barbearia.png';
+import Calculadora from '../../../assets/calculadora_imc.png';
 import './style.css';
 
 
@@ -49,6 +50,11 @@ export default function SecaoPortfolio() {
           <Portfolio imagem={<a href='https://gelateria-react-js-responsivo.vercel.app/' target="_blank" rel="noreferrer"><img src={Sorveteria} alt=""></img></a>}
             link="https://gelateria-react-js-responsivo.vercel.app/"
             git="https://github.com/Jeeffsantoos/Gelateria_React_js_responsivo/tree/master"
+          />
+
+          <Portfolio imagem={<a href='https://calculadora-imc-lc9x.vercel.app/' target="_blank" rel="noreferrer"><img src={Calculadora} alt=""></img></a>}
+            link="https://calculadora-imc-lc9x.vercel.app/"
+            git="https://github.com/Jeeffsantoos/calculadora_imc"
           />
 
         </div>
