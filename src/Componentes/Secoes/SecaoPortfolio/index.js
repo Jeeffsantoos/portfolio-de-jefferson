@@ -7,7 +7,7 @@ import Gerador from '../../../assets/geradordenumeros.png';
 import Sorveteria from '../../../assets/sorveteria.png';
 import Otica from '../../../assets/Otica.png';
 import Barbearia from '../../../assets/barbearia.png';
-import Calculadora from '../../../assets/calculadora_imc.png';
+import Calculadora from '../../../assets/calculadoraimc.png';
 import './style.css';
 
 
