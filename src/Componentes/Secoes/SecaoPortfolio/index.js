@@ -11,7 +11,7 @@ import Calculadora from '../../../assets/calculadora_imc.png';
 import './style.css';
 
 
-export default function SecaoPortfolio() {
+export default function SecaoPortfolio(props) {
   return (
     <section className='secao-portfolio'>
       <div className='titulo'>
