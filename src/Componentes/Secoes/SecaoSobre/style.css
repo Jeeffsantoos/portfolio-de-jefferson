@@ -168,7 +168,7 @@ transform: scale(0.9);
   }
 }
 
-@media (max-width: 550px) and (min-width: 368px)  {
+@media (max-width: 650px) and (min-width: 268px)  {
   .secao-sobre-container {
    flex-direction: column-reverse;
    display: flex;

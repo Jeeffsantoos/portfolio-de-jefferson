@@ -56,7 +56,7 @@
 }
 
 
-@media (max-width: 550px) and (min-width: 368px)  {
+@media (max-width: 650px) and (min-width: 268px)  {
   .portfolio img {
     width: 90%;
     padding: 10px;
