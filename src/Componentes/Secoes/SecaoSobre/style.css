@@ -66,7 +66,7 @@ transform: scale(0.9);
 .barras {
   width: 100%;
   position: relative;
-  transition: .40s; 
+  transition: .100s; 
  
  
 }
@@ -84,7 +84,7 @@ transform: scale(0.9);
  position: absolute;
  height: 100%;
  background-color: #497c9d;
- animation: progress-animation1 3s linear ;
+ animation: progress-animation1 10s linear ;
  animation-fill-mode: forwards;
 }
 
@@ -92,7 +92,7 @@ transform: scale(0.9);
   position: absolute;
   height: 100%;
   background-color: #497c9d;
-  animation: progress-animation2 3s linear ;
+  animation: progress-animation2 10s linear ;
   animation-fill-mode: forwards;
  }
 
@@ -105,7 +105,7 @@ transform: scale(0.9);
   position: absolute;
   height: 100%;
   background-color: #497c9d;
-  animation: progress-animation3 3s linear ;
+  animation: progress-animation3 10s linear ;
   animation-fill-mode: forwards;
  }
 
@@ -113,28 +113,28 @@ transform: scale(0.9);
   position: absolute;
   height: 100%;
   background-color: #497c9d;
-  animation: progress-animation4 3s linear ;
+  animation: progress-animation4 10s linear ;
   animation-fill-mode: forwards;
  }
 
 @keyframes progress-animation1{
   0% { width: 0%; } 
-  100% { width: 60%}
+  100% { width: 50%}
 }
 
 @keyframes progress-animation2{
   0% { width: 0%; } 
-  100% { width: 80%}
+  100% { width: 100%}
 }
 
 @keyframes progress-animation3{
   0% { width: 0%; } 
-  100% { width: 75%}
+  100% { width: 100%}
 }
 
 @keyframes progress-animation4{
   0% { width: 0%; } 
-  100% { width: 95%}
+  100% { width: 100%}
 }
 
 .barras div {

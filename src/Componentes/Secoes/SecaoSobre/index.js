@@ -12,7 +12,7 @@ export default function SecaoSobre() {
           <div className='barras'>
             <div className='skill'>
               <p>Inglês</p>
-              <p>60%</p>
+              <p>50%</p>
             </div>
             <div className='barra'>
               <div class="progress-bar1"></div>
@@ -23,7 +23,7 @@ export default function SecaoSobre() {
 
             <div className='skill'>
               <p>Trabalho em equipe</p>
-              <p>80%</p>
+              <p>100%</p>
             </div>
 
             <div className='barra'>
@@ -34,7 +34,7 @@ export default function SecaoSobre() {
           <div className='barras'>
             <div className='skill'>
               <p>Resiliência</p>
-              <p>75%</p>
+              <p>100%</p>
             </div>
             <div className='barra'>
               <div class="progress-bar3">
@@ -46,7 +46,7 @@ export default function SecaoSobre() {
           <div className='barras'>
             <div className='skill'>
               <p>Comunicação</p>
-              <p>95%</p>
+              <p>100%</p>
             </div>
             <div className='barra'>
               <div class="progress-bar4">
