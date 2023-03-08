@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 80px 15px;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 .sobre-mim {
@@ -159,6 +159,10 @@ transform: scale(0.9);
     width: 100%;
   }
 
+  .secao-sobre {
+    padding-top: 70px;
+  }
+
   .sobre-mim {
     width: 80%;
   }
@@ -199,6 +203,6 @@ transform: scale(0.9);
 
   .secao-sobre {
     height: auto;
-    padding: 25px 25px;
+    padding: 70px 25px 25px 25px;
   }
 }

@@ -157,10 +157,3 @@ a:active, a, a:visited, Link:visited, Link:active, li a:visited, li a:active, na
 
 }
 
-@media (max-width: 650px) and (min-width: 280px)  {
-
-  header {
-  position: relative;
-  }
-
-}
