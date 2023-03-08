@@ -32,11 +32,12 @@ color: azure;
 .contato-menu ul:hover > :not(:hover) {
   opacity:.4;
   transform: scale(0.8);
-
+  background: transparent;
 }
   
 .contato-menu ul li:not(:hover) {
     transition: 0.3s ease-in-out;
+    background: transparent;
  }
   
 .contato-menu ul { 
@@ -47,6 +48,7 @@ color: azure;
 .contato-menu ul li:hover {
     transform: scale(1.5);
     transition: 0.3s ease-in-out;
+    background: transparent;
  }
 
  .icons {
