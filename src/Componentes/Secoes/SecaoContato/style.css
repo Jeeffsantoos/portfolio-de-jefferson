@@ -53,14 +53,17 @@ color: azure;
 
  .icons {
   color: white;
+  background: transparent;
  }
 
  .icons:active {
   color: white;
+  background: transparent;
  }
 
  .icons:visited {
   color: white;
+  background: transparent;
  }
  @media (max-width: 650px)and (min-width: 268px)  {
   .contato-menu ul li{
