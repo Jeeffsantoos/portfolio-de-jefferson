@@ -8,14 +8,14 @@ export default function Topo() {
   const [menuAberto, setMenuAberto] = useState(true);
 
   function abrirBotao() {
-    setMenuAberto(menuAberto)
+    setMenuAberto(!menuAberto)
   };
 
   return (
     <header>
       <div className="limita-secao correcao">
         <Link to='/'> <img src={Logo} className='gira' alt="" /></Link>
-        <nav className='menu-topo' id={menuAberto ? 'menu-aberto' : 'menu-fechado'}>
+        <nav className='menu-topo' id={menuAberto ? '' : 'menu-aberto'}>
           <button onClick={abrirBotao} className='btn-mobile'>
             <span id='hamburguer'></span>
           </button>
