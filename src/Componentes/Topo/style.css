@@ -55,6 +55,7 @@ a:active, a, a:visited, Link:visited, Link:active, li a:visited, li a:active, na
   position: relative;
   padding-bottom: 1px;
   cursor: pointer;
+  max-width: fit-content;
 }
 
 .btn-mobile{
@@ -76,6 +77,7 @@ a:active, a, a:visited, Link:visited, Link:active, li a:visited, li a:active, na
 
 .lista-menu-topo li:hover::before {
   width: 100%;
+
 }
 
 @media (max-width: 768px) {
