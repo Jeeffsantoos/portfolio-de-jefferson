@@ -19,13 +19,13 @@ color: azure;
   list-style: none;
   display: flex;
   justify-content: space-between;
-  
+  background: transparent;
 }
 
 .contato-menu ul li {
   padding-left: 30px;
   padding-right: 30px;
-
+  background: transparent;
   margin-bottom: 30px;
 }
 
@@ -41,6 +41,7 @@ color: azure;
   
 .contato-menu ul { 
     cursor: pointer;
+    background: transparent;
 }
 
 .contato-menu ul li:hover {
@@ -61,13 +62,29 @@ color: azure;
  }
  @media (max-width: 650px)and (min-width: 268px)  {
   .contato-menu ul li{
-     
     padding: 15px;
-  
   }
 
   .secao-contato {
     height: auto;
     padding: 40px 10px;
   }
+
+  .contato-menu ul li:hover {
+    animation: none;
+ }
+
+ .contato-menu ul:hover > :not(:hover) {
+  animation: none;
+
+}
+  
+.contato-menu ul li:not(:hover) {
+  animation: none;
+ }
+  
+.contato-menu ul { 
+  animation: none;
+}
+
  }
