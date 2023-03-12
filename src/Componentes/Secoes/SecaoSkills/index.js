@@ -5,6 +5,10 @@ import LogoHTML from '../../../assets/LogoHtml.png';
 import LogoCSS from '../../../assets/LogoCSS.png';
 import LogoGIT from '../../../assets/LogoGit.png';
 import LogoNode from '../../../assets/LogoNodejs.png';
+import LogoMongo from '../../../assets/mongo.png';
+import LogoMySQL from '../../../assets/mysql.png';
+import LogoPython from '../../../assets/python.png';
+import LogoSQL from '../../../assets/sql.png';
 import Card from '../../Cards/Card';
 import './style.css'
 
@@ -40,6 +44,23 @@ export default function SecaoSkills(props) {
         <Card imagem={<img src={LogoNode} alt="" />}
           titulo="NodeJs"
           paragrafo="Utilizo o NodeJs para a criação de API's no padrão REST." />
+
+        <Card imagem={<img src={LogoPython} alt="" />}
+          titulo="Python"
+          paragrafo="" />
+
+        <Card imagem={<img src={LogoSQL} alt="" />}
+          titulo="SQL"
+          paragrafo="" />
+
+        <Card imagem={<img src={LogoMySQL} alt="" />}
+          titulo="MySQL"
+          paragrafo="" />
+
+        <Card imagem={<img src={LogoMongo} alt="" />}
+          titulo="Mongo DB"
+          paragrafo="" />
+
 
       </div>
     </section >
